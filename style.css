@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+}
+body {
+  background-image: url("greyzz.png");
+}
+h1,
+h2,
+a,
+li,
+p {
+  font-family: "Poppins", sans-serif;
+}
+#liseret {
+  width: 10%;
+  margin-right: 3%;
+  height: 500px;
+  background-image: url("/lodyas.png");
+  border-radius: 10px;
+}
+#liseret,
+#container {
+  display: inline-block;
+  vertical-align: top;
+}
+#container {
+  width: 85%;
+}
+p a img {
+  float: right;
+  border: 3px solid black;
+  box-shadow: 2px 2px 2px black;
+}
+
+h1,
+h1 + p {
+  text-align: center;
+}
+
+h2 {
+  color: brown;
+}
+section {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin-right: 2%;
+}
